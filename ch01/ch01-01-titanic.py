@@ -1,3 +1,4 @@
+# %%
 import numpy as np
 import pandas as pd
 
@@ -5,8 +6,8 @@ import pandas as pd
 # 学習データ、テストデータの読み込み
 # -----------------------------------
 # 学習データ、テストデータの読み込み
-train = pd.read_csv('../input/ch01-titanic/train.csv')
-test = pd.read_csv('../input/ch01-titanic/test.csv')
+train = pd.read_csv('./input/ch01-titanic/train.csv')
+test = pd.read_csv('./input/ch01-titanic/test.csv')
 
 # 学習データを特徴量と目的変数に分ける
 train_x = train.drop(['Survived'], axis=1)
@@ -14,6 +15,8 @@ train_y = train['Survived']
 
 # テストデータは特徴量のみなので、そのままでよい
 test_x = test.copy()
+
+# %%
 
 # -----------------------------------
 # 特徴量作成

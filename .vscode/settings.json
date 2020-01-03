@@ -1,0 +1,5 @@
+{
+    "python.pythonPath": "/Users/okudashimpei/.pyenv/versions/anaconda3-5.2.0/envs/kaggle/bin/python",
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true
+}

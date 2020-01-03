@@ -1,3 +1,4 @@
+# %%
 import numpy as np
 import pandas as pd
 
@@ -15,7 +16,7 @@ y_pred = [0.8, 1.5, 1.8, 1.3, 3.0]
 rmse = np.sqrt(mean_squared_error(y_true, y_pred))
 print(rmse)
 # 0.5532
-
+# %% 
 # -----------------------------------
 # 二値分類
 # -----------------------------------
